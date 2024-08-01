@@ -4,22 +4,67 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+
 }
 
-header {
-    background-color: #333;
-    color: #fff;
+header { 
+    color: white;
     padding: 20px;
+    padding: 1rem 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
 }
 
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 main {
+    color: white;
     padding: 20px;
     text-align: center;
 }
 
 footer {
-    background-color: #333;
+    
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -27,3 +72,71 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+.youtube-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: opacity 0.20s,background-color 0.20s;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding-left: 16px;
+    padding-right: 16px; 
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+  .youtube-button:hover {
+    opacity: 0.7;
+  }
+
+  .youtube-button:active {
+    background-color: blue;
+  }
+
+  .telegram-button {
+
+    background-color:rgb(20, 91, 171);
+    color: white;
+    border-color: rgb(20, 91, 171);
+    border-style: solid;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: color 0.20s,background-color 0.20s;
+    padding-left: 16px;
+    padding-right: 16px; 
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .telegram-button:hover {
+    background-color: rgb(63, 124, 194);
+    color:white;
+  }
+
+  .telegram-button:active {
+    opacity: 0.7;
+  }
+
+  .instagram-button {
+
+    background-color: #008CBA;;
+    color: rgb(245, 250, 255);
+    border-color: #008CBA;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: color 0.20s,background-color 0.20s;
+    padding-left: 16px;
+    padding-right: 16px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .instagram-button:hover {
+    background-color: rgb(205, 72, 107);
+    color:white;
+  }
+
+  .instagram-button:active {
+    opacity: 0.7;
+  }
+
